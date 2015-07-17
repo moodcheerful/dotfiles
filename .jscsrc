@@ -1,0 +1,7 @@
+{
+	"preset": "google",
+	"validateIndentation": "\t",
+	"maximumLineLength": {
+		"value": 100
+	}
+}
