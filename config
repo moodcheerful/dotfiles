@@ -1,0 +1,16 @@
+TCPKeepAlive no
+Compression yes
+ServerAliveCountMax 300
+ServerAliveInterval 10
+
+# NAME
+Host company_servername_env_ip
+Hostname xxx.xxx.xxx.xxx
+User root
+ForwardAgent yes
+Port 22
+Compression yes
+Ciphers arcfour128,arcfour256,arcfour,blowfish-cbc
+
+
+
