@@ -1,3 +1,5 @@
 [
-	{"keys": ["super+m"], "command": "markdown_preview", "args": {"target": "browser", "parser":"github"}}
+	{"keys": ["super+m"], "command": "markdown_preview", "args": {"target": "browser", "parser":"github"}},
+	{"keys": ["super+up"], "command": "scroll_lines", "args": {"amount": 30.0}},
+	{"keys": ["super+down"], "command": "scroll_lines", "args": {"amount": -30.0}}
 ]
