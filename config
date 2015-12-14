@@ -1,16 +1,16 @@
-TCPKeepAlive no
+User root
+Port 22
 Compression yes
-ServerAliveCountMax 300
+CompressionLevel 9
+Ciphers arcfour128,arcfour256,arcfour,blowfish-cbc,aes128-cbc,3des-cbc,aes192-cbc,aes256-cbc
+ConnectionAttempts 1
+TCPKeepAlive no
+ServerAliveCountMax 500
 ServerAliveInterval 10
+ForwardAgent yes
 
 # NAME
 Host company_servername_env_ip
 Hostname xxx.xxx.xxx.xxx
-User root
-ForwardAgent yes
-Port 22
-Compression yes
-Ciphers arcfour128,arcfour256,arcfour,blowfish-cbc
-
-
-
+User username
+Port 2222
