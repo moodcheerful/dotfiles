@@ -7,6 +7,7 @@ My personal dot files
 :question:
 :interrobang:
 :bangbang:
+:x:
 :warning:
 :heavy_check_mark:
 :bulb:
