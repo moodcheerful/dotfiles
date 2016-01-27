@@ -1,5 +1,11 @@
+### Usage - run once:
+### git config --global core.excludesfile ~/.gitignore_global
+
 # OSX 
 .DS_Store
+
+# Vim
+*~
 
 # Java 
 *.class
@@ -44,4 +50,3 @@ hs_err_pid*
 
 # Office
 ~*
-
