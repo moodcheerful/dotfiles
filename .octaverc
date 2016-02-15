@@ -1,0 +1,7 @@
+## change prompt:
+PS1('>> ');
+
+## set terminal
+setenv ("GNUTERM", "aqua");
+#setenv ("GNUTERM", "qt");
+
