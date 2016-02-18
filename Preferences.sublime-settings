@@ -10,5 +10,11 @@
 	"spell_check": true,
 	"tab_size": 3,
 	"word_wrap": true,
-	"wrap_width": 100
+	"wrap_width": 100,
+	"syntaxes": [
+	  {
+	    "name": "Packages/Matlab/Matlab.tmLanguage",
+		 "extensions": ["m"]
+	  }
+	]
 }
