@@ -13,3 +13,6 @@ export PS1="\[\033[0;36m\]\u@\h: \w \$(parse_git_branch)\n\\$ \[\033[0m\]"
 alias l='ls -la'
 alias grep='grep -n -i --color=auto'
 
+# fontconfig path for octave/gnuplot
+export FONTCONFIG_PATH=/opt/X11/lib/X11/fontconfig
+
