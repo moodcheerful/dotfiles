@@ -1,7 +1,10 @@
 ## change prompt:
 PS1('>> ');
 
-## set terminal
-setenv ("GNUTERM", "aqua");
-#setenv ("GNUTERM", "qt");
+graphics_toolkit('gnuplot');
+#graphics_toolkit('fltk');
 
+## set terminal
+setenv ("GNUTERM", "qt");
+#setenv ("GNUTERM", "aqua");
+#setenv ("GNUTERM", "x11");
