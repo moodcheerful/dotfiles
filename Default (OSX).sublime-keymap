@@ -1,8 +1,38 @@
 [
-	{"keys": ["super+m"], "command": "markdown_preview", "args": {"target": "browser", "parser":"github"}},
-	{"keys": ["super+up"], "command": "scroll_lines", "args": {"amount": 30.0}},
-	{"keys": ["super+down"], "command": "scroll_lines", "args": {"amount": -30.0}},
-
-	{"keys": ["super+shift+down"], "command": "move_to", "args": {"to": "eof"}},
-	{"keys": ["super+shift+up"], "command": "move_to", "args": {"to": "bof"}}
+	{
+		"keys": ["super+m"],
+		"command": "markdown_preview",
+		"args": {
+			"target": "browser",
+			"parser": "github"
+		}
+	}, 
+	{
+		"keys": ["super+up"],
+		"command": "scroll_lines",
+		"args": {
+			"amount": 30.0
+		}
+	}, 
+	{
+		"keys": ["super+down"],
+		"command": "scroll_lines",
+		"args": {
+			"amount": -30.0
+		}
+	}, 
+	{
+		"keys": ["super+shift+down"],
+		"command": "move_to",
+		"args": {
+			"to": "eof"
+		}
+	}, 
+	{
+		"keys": ["super+shift+up"],
+		"command": "move_to",
+		"args": {
+			"to": "bof"
+		}
+	}
 ]
